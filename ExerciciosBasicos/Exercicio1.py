@@ -15,7 +15,7 @@ potencia = a**b
 # print(soma, subtracao, multiplicacao, divisao, divisao_inteira, resto, potencia)
 
 
-# Declare uma variável para representar o raio de um círculo e calcule sua área 
+# Declare uma variável para representar o raio de um círculo e calcule sua área
 # usando a fórmula área = π * raio^2. Considere π como 3.14.
 
 raio = 12
@@ -45,7 +45,7 @@ fraseSpfc_upper = fraseSpfc.upper()
 
 fraseSpfc_lower = fraseSpfc.lower()
 
-fraseSpfc_substituida =  fraseSpfc.replace("brasileiro", "paulista")
+fraseSpfc_substituida = fraseSpfc.replace("brasileiro", "paulista")
 
 # print(fraseSpfc)
 # print(fraseSpfc_upper)
@@ -55,7 +55,7 @@ fraseSpfc_substituida =  fraseSpfc.replace("brasileiro", "paulista")
 # 3 - Utilização de Listas e Tuplas:
 # Crie uma lista com três cores diferentes. Adicione mais duas cores a essa lista e imprima-a.
 
-cores = [ "Vermelho", "Verde", "Azul"]
+cores = ["Vermelho", "Verde", "Azul"]
 
 cores.append("Amarelo")
 cores.append("Rosa")
@@ -85,7 +85,7 @@ elif tem_chuva:
 
 # Solicite ao usuário dois números e use operadores lógicos para verificar se ambos são números pares.
 # Imprima o resultado.
-    
+
 numero1 = int(input("Digite o primeiro número: "))
 numero2 = int(input("Digite o segundo número: "))
 
@@ -96,9 +96,15 @@ if sao_pares:
 else:
     print("Um dos números não é par.")
 
-
 # Crie uma lista de números e use uma estrutura de repetição para percorrer a lista.
 # Utilize operadores lógicos para verificar e imprimir quais números são múltiplos de 3 e ímpares.
+
+numeros = [1, 2, 3, 4, 5, 6, 9]
+
+for num in numeros:
+    if num % 3 == 0 and num % 2 != 0:
+        print(num, "é múltiplo de 3 e ímpar.")
+
 
 # Peça ao usuário para digitar a sua idade e verifique se ela está dentro do intervalo de 18 a 65 anos.
 # Imprima uma mensagem correspondente.
