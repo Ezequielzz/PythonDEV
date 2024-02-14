@@ -105,9 +105,13 @@ for num in numeros:
     if num % 3 == 0 and num % 2 != 0:
         print(num, "é múltiplo de 3 e ímpar.")
 
-
 # Peça ao usuário para digitar a sua idade e verifique se ela está dentro do intervalo de 18 a 65 anos.
 # Imprima uma mensagem correspondente.
 
-# Esses exercícios proporcionarão uma prática abrangente nos temas de operadores e tipos de variáveis em Python,
-# ajudando a solidificar o entendimento desses conceitos fundamentais na linguagem de programação.
+idade = int(input("Escreva sua idade: "))
+
+if idade > 18 and idade < 65:
+    print("Sua idade está no intervalo permitido.")
+else:
+    print("Sua idade não está no intervalo permitido.")
+
