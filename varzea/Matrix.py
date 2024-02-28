@@ -14,7 +14,7 @@ FONT_COLOR = (0, 255, 0)  # Cor do texto verde
 FALLING_SPEED = 1  # Velocidade de queda dos caracteres
 
 # Caracteres possíveis na tela
-CHARACTERS = "!@#$%&*+|?/~01"
+CHARACTERS = "!@#$%&*+|Il?/~01"
 
 # Classe para representar um caractere caindo
 class MatrixCharacter:
@@ -57,7 +57,7 @@ while running:
     # Desenha e atualiza cada caractere
     for char in matrix_characters:
         char.update()
-        char.draw(screen)
+        char.draw(screen )
 
         # Resetando a posição do caractere quando ele alcança o fim da tela
         if char.y > HEIGHT:
