@@ -76,8 +76,8 @@ perguntasDificil = [
         "resposta": "d"
     },
     {
-        "pergunta": "Qual é o nome do físico teórico que propôs a teoria das cordas como uma tentativa de unificar as forças fundamentais da natureza?",
-        "opcoes": ["a) Albert Einstein", "b) Stephen Hawking", "c) Richard Feynman", "d) Edward Witten"],
-        "resposta": "d"
+        "pergunta": "Qual é o nome do satélite natural de Netuno que possui uma atmosfera composta principalmente de nitrogênio e metano?",
+        "opcoes": ["a) Io", "b) Tritão", "c) Europa", "d) Encélado"],
+        "resposta": "b"
     }
 ]
