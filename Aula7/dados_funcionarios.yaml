@@ -1,0 +1,97 @@
+funcionarios:
+  - Nome: Ana
+    Idade: 25
+    Salario: 3500
+  - Nome: João
+    Idade: 30
+    Salario: 4000
+  - Nome: Maria
+    Idade: 28
+    Salario: 3200
+  - Nome: Pedro
+    Idade: 35
+    Salario: 4500
+  - Nome: Alice
+    Idade: 27
+    Salario: 3700
+  - Nome: Bruno
+    Idade: 32
+    Salario: 4200
+  - Nome: Carolina
+    Idade: 29
+    Salario: 3400
+  - Nome: Daniel
+    Idade: 33
+    Salario: 4700
+  - Nome: Érica
+    Idade: 26
+    Salario: 3800
+  - Nome: Felipe
+    Idade: 31
+    Salario: 4100
+  - Nome: Gabriela
+    Idade: 24
+    Salario: 3300
+  - Nome: Henrique
+    Idade: 36
+    Salario: 4600
+  - Nome: Ingrid
+    Idade: 23
+    Salario: 3600
+  - Nome: Júlia
+    Idade: 34
+    Salario: 4800
+  - Nome: Lucas
+    Idade: 25
+    Salario: 3500
+  - Nome: Mariana
+    Idade: 30
+    Salario: 4000
+  - Nome: Nuno
+    Idade: 28
+    Salario: 3200
+  - Nome: Olívia
+    Idade: 35
+    Salario: 4500
+  - Nome: Pablo
+    Idade: 27
+    Salario: 3700
+  - Nome: Renata
+    Idade: 32
+    Salario: 4200
+  - Nome: Samuel
+    Idade: 29
+    Salario: 3400
+  - Nome: Thais
+    Idade: 33
+    Salario: 4700
+  - Nome: Úrsula
+    Idade: 26
+    Salario: 3800
+  - Nome: Victor
+    Idade: 31
+    Salario: 4100
+  - Nome: Wellington
+    Idade: 24
+    Salario: 3300
+  - Nome: Xuxa
+    Idade: 36
+    Salario: 4600
+  - Nome: Yara
+    Idade: 23
+    Salario: 3600
+  - Nome: Zeca
+    Idade: 34
+    Salario: 4800
+  - Nome: André
+    Idade: 25
+    Salario: 3500
+  - Nome: Beatriz
+    Idade: 30
+    Salario: 4000
+  - Nome: Carlos
+    Idade: 28
+    Salario: 3200
+  - Nome: Débora
+    Idade: 35
+    Salario: 4500
