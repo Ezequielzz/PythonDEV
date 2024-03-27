@@ -441,11 +441,11 @@ comportamento_do_cliente:
 
 desempenho_do_produto:
   - produto: Banheira
-    vendas_totais:
-    receita_total:
+    vendas_totais: 32
+    receita_total: 80000.00
   - produto: Ofurô
-    vendas_totais:
-    receita_total:
+    vendas_totais: 41
+    receita_total: 123000.00
   - produto: Spa
-    vendas_totais:
-    receita_total:
+    vendas_totais: 37
+    receita_total: 185000.00
