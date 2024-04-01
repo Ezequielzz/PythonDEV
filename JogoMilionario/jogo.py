@@ -1,4 +1,4 @@
-from perguntas import perguntas
+from perguntas import perguntasFacil, perguntasMédio, perguntasDificil
 
 def apresentar_pergunta(pergunta):
     print(pergunta["pergunta"])
@@ -7,7 +7,7 @@ def apresentar_pergunta(pergunta):
     resposta = input("Escolha a opção correta (a, b, c, d): ").lower()
     return resposta
 
-def jogar():
+def jogar(perguntas):
     dinheiro_acumulado = 0
     for pergunta in perguntas:
         resposta = apresentar_pergunta(pergunta)
@@ -15,13 +15,11 @@ def jogar():
             print("Resposta correta!")
             dinheiro_acumulado += 1000  # Aumenta a pontuação em 1000
             print("Dinheiro acumulado: $", dinheiro_acumulado)
-            continuar = input("Deseja continuar para a próxima pergunta? (s/n): ").lower()
-            if continuar != 's':
-                break
         else:
-            print("Resposta incorreta. Fim do jogo!")
-            break
+            print("Resposta incorreta!")
     print("Pontuação final: $", dinheiro_acumulado)
 
 if __name__ == "__main__":
-    jogar()
+    jogar(perguntasFacil)
+    jogar(perguntasMédio)
+    jogar(perguntasDificil)
