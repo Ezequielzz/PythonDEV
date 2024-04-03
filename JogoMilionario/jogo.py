@@ -14,12 +14,13 @@ def jogar(perguntas):
         if resposta == pergunta["resposta"]:
             print("Resposta correta!")
             dinheiro_acumulado += 1000  # Aumenta a pontuação em 1000
-            print("Dinheiro acumulado: $", dinheiro_acumulado)
         else:
-            print("Resposta incorreta!")
-    print("Pontuação final: $", dinheiro_acumulado)
+            print("Resposta incorreta! A resposta correta é:", pergunta["resposta"])
+    return dinheiro_acumulado
 
 if __name__ == "__main__":
-    jogar(perguntasFacil)
-    jogar(perguntasMédio)
-    jogar(perguntasDificil)
+    dinheiro_total = 0
+    dinheiro_total += jogar(perguntasFacil)
+    dinheiro_total += jogar(perguntasMédio)
+    dinheiro_total += jogar(perguntasDificil)
+    print("Pontuação total: $", dinheiro_total)

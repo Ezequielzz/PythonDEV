@@ -35,7 +35,7 @@ perguntasMédio = [
     {
         "pergunta": "Quem foi o primeiro presidente do Brasil após a redemocratização, em 1985?",
         "opcoes": ["a) Tancredo Neves", "b) José Sarney", "c) Fernando Collor", "d) Itamar Franco"],
-        "resposta": "b"
+        "resposta": "a"
     },
     {
         "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
@@ -44,13 +44,13 @@ perguntasMédio = [
     },
     {
         "pergunta": "Em que ano a Segunda Guerra Mundial começou?",
-        "opcoes": ["a) Tancredo Neves", "b) José Sarney", "c) Fernando Collor", "d) Itamar Franco"],
-        "resposta": "b"
-    },
-    {
-        "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
         "opcoes": ["a) 1941", "b) 1936", "c) 1945", "d) 1939"],
         "resposta": "d"
+    },
+    {
+        "pergunta": "Qual é o elemento químico mais abundante na crosta terrestre?",
+        "opcoes": ["a) Oxigênio", "b) Carbono", "c) Silício", "d) Alumínio"],
+        "resposta": "c"
     }
 ]
 
