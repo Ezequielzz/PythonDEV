@@ -13,7 +13,7 @@ def jogar(perguntas):
         resposta = apresentar_pergunta(pergunta)
         if resposta == pergunta["resposta"]:
             print("Resposta correta!")
-            dinheiro_acumulado += 1000  # Aumenta a pontuação em 1000
+            dinheiro_acumulado += 10000  # Aumenta a pontuação em 10000
         else:
             print("Resposta incorreta! A resposta correta é:", pergunta["resposta"])
     return dinheiro_acumulado
