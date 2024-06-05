@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Dados Python</title>
+</head>
+<body>
+    <h2>Sumário de Dados do Filme</h2>
+    <div>{{ resumo|safe }}</div>
+    <br>
+    <h2>5 Primeiros Filmes</h2>
+    <div>{{ head|safe }}</div>
+
+    <h2>Gráficos Interativos</h2>
+    <ul>
+        <li><a href="/plot1">Distribuíção das Avaliações dos Filmes</a></li>
+        <li><a href="/plot2">Box Plot das Avaliações por Gênero</a></li>
+        <li><a href="/plot3">Relação Entre Votos, Avaliações e Duração dos Filmes</a></li>
+    </ul>
+</body>
+</html>
